@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dentiva - Full-featured modular medical dental clinic dashboard and electronic health record portal.">
+  <title>Dentiva Dental Clinic | Premium Medical Portal</title>
+  
+  <!-- Modular CSS Entry -->
+  <link rel="stylesheet" href="./styles/main.css">
+  
+  <!-- External Vector & Canvas Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+  <!-- Root Mounting Container -->
+  <div id="app"></div>
+
+  <!-- Prescription Print Template Block (@media print container for PDF exports) -->
+  <div id="prescription-print-template"></div>
+
+  <!-- Modular ES6 Application Entry -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
